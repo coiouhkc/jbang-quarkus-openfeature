@@ -24,7 +24,7 @@ public class demo8_no_openfeature {
 		Quarkus.run(args);
 	}
 
-	@Path("/feature")
+	@Path("/feature-hardcoded")
 	@ApplicationScoped
 	@Produces(MediaType.APPLICATION_JSON)
 	@Consumes(MediaType.APPLICATION_JSON)
